@@ -136,6 +136,45 @@ p{
     .col-4:hover{
         transform: translateY(-5px);
     }
+
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+    
+    .opening-days-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        width: 50%;
+        font-size: 16px;
+        text-align: left;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .opening-days-table th, .opening-days-table td {
+        border: 1px solid #dddddd;
+        padding: 10px 15px;
+    }
+    
+    .opening-days-table th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .opening-days-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    .opening-days-table tr:last-child td {
+        font-style: italic;
+        color: #ff0000; /* Red color for 'Closed' */
+        text-align: center;
+    }
+    
     /*--------- offer --------*/
     .offer{
         background: radial-gradient(#fff,#ffd6d6);
